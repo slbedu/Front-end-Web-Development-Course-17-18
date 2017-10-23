@@ -263,11 +263,247 @@ console.log(objectB["foo"]); // bar</code></pre>
                 </section>
             </section>
             <section>
+                <section>
+                    <h2>Оператори</h2>
+                    <img src="images/operators.png" class="section-logo" alt="Оператори" />
+                </section>
+
+                <section>
+                    <h4>Аритметични оператори</h4>
+                    <ul>
+                        <li class="fragment">+ - събиране</li>
+                        <li class="fragment">- - изваждане</li>
+                        <li class="fragment">* - умножение</li>
+                        <li class="fragment">/ - делене</li>
+                        <li class="fragment">% - целочислено делене</li>
+                        <li class="fragment">++ и -- - increment and decrement</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Примери</h4>
+                    <pre><code>const a = 5;
+const b = 4;
+
+console.log(a + b); // 9
+console.log(a - b); // 1
+console.log(a * b); // 20
+console.log(a / b); // 1.25
+console.log(a % b); // 1
+</code></pre>
+<pre class="fragment"><code>console.log(a++); // ?
+console.log(b--); // ?</code></pre>
+                </section>
+
+                <section>
+                    <h4>Оператори за присвояване</h4>
+
+                    <ul>
+                        <li class="fragment">=</li>
+                        <li class="fragment">+=</li>
+                        <li class="fragment">-=</li>
+                        <li class="fragment">*=</li>
+                        <li class="fragment">/=</li>
+                        <li class="fragment">%=</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Примери</h4>
+                    <pre><code>let result = 0;
+
+console.log(result += 5); // 5
+console.log(result -= 3); // 2
+console.log(result *= 6); // 12
+console.log(result /= 3); // 4
+console.log(result %= 2); // 0
+</code></pre>
+                </section>
+
+                <section>
+                    <h4>Логически оператори</h4>
+                    <ul>
+                        <li class="fragment">&& - логическо И</li>
+                        <li class="fragment">|| - логическо ИЛИ</li>
+                        <li class="fragment">! - NOT</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Примери</h4>
+                    <pre><code>const a = true;
+const b = false;
+
+console.log(a && b); // false
+console.log(a || b); // true
+console.log(!a); // false
+</code></pre>
+                    <p class="fragment">Short circuit evaluation</p>
+                </section>
+
+                <section>
+                    <h4>Оператори за сравнение</h4>
+                    <ul>
+                        <li class="fragment">==</li>
+                        <li class="fragment">!==</li>
+                        <li class="fragment">===</li>
+                        <li class="fragment">!==</li>
+                        <li class="fragment">&lt;</li>
+                        <li class="fragment">&gt;</li>
+                        <li class="fragment">&lt;=</li>
+                        <li class="fragment">&gt;=</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Примери</h4>
+                    <pre><code>const a = 5;
+const b = 4;
+
+console.log(a == b); // false
+console.log(a !== b); // false
+console.log(a > b); // true
+console.log(a < b); // false
+</code></pre>
+                    <p class="fragment">A little QUIZ :)</p>
+                </section>
+
+                <section>
+                    <h4>Побитови оператори</h4>
+                    <ul>
+                        <li class="fragment">& - Bitwise AND</li>
+                        <li class="fragment">| - Bitwise OR</li>
+                        <li class="fragment">^ - Bitwise XOR</li>
+                        <li class="fragment">~ = Bitwise NOT</li>
+                        <li class="fragment">&lt;&lt; - Bitwise Left shift</li>
+                        <li class="fragment">&gt;&gt; - Bitwise Right shift</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Примери</h4>
+                    <pre><code>const a = 3;
+const b = 10;
+
+console.log(a & b); // 2
+console.log(a | b); // 11
+console.log(a ^ b); // 9
+console.log(~a); // -4
+console.log(b >> 1); // 5
+console.log(a << 1); // 6
+</code></pre>
+                </section>
+
+                <section>
+                    <h4>Условни оператори</h4>
+
+                    <ul>
+                        <li class="fragment">if</li>
+                        <li class="fragment">if-else</li>
+                        <li class="fragment">else if</li>
+                        <li class="fragment">switch-case</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Примери</h4>
+                    <pre><code>const a = 3;
+const b = 10;
+
+if (a === 3) {
+    console.log(3);
+}
+
+if (b === 3) {
+    console.log(3);
+} else {
+    console.log(10);
+}
+</code></pre>
+                </section>
+
+                <section>
+                    <h4>Още примери</h4>
+                    <pre><code>const a = 3;
+const b = 10;
+
+if (a === 10) {
+    console.log(3);
+} else if (a === 5) {
+    console.log(5);
+} else if (b === 10) {
+    console.log(10);
+}
+</code></pre>
+                </section>
+
+                <section>
+                    <h4>Още примери</h4>
+                    <pre><code>const a = 3;
+const b = 10;
+
+switch (a) {
+    case 3:
+        console.log(3);
+        break;
+    case 5:
+        console.log(3);
+        break;
+    default:
+        console.log(":)");
+}
+</code></pre>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h2>Цикли</h2>
+                    <img src="images/loops.png" alt="Loops" />
+                </section>
+
+                <section>
+                    <h4>Приложение</h4>
+
+                    <ul>
+                        <li class="fragment">Търсене, сортиране</li>
+                        <li class="fragment">Обхождане на масиви, матрици, кубове и т.н.</li>
+                        <li class="fragment">Генериране на комбинации</li>
+                        <li class="fragment">Повтаряне на една и съща операция няколко пъти</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>while и do-while</h4>
+                    <pre><code>while (условие) {
+    код за изпълнение
+}
+
+do {
+    код за изпълнение
+} while (условие);
+</code></pre>
+                </section>
+
+                <section>
+                    <h4>for</h4>
+                    <pre><code>for (инициализция; условие; итератор) {
+    код за изпълнение
+}
+</code></pre>
+                </section>
+            </section>
+
+
+            <section>
                 <h2>var thank = "you!";</h2>
                 <p style="text-align: left;">
                     var tutors = [{
                     <br> &nbsp;&nbsp;&nbsp;&nbsp; name: "Мартин Христов",
                     <br> &nbsp;&nbsp;&nbsp;&nbsp; email: "<a href="mailto:martin.r.hristov@sap.com">martin.r.hristov@sap.com</a>"
+                    <br> }, {
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp; name: "Адриан Бобев",
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp; email: "<a href="mailto:adrian.bobev@sap.com">adrian.bobev@sap.com</a>"
                     <br> }];
                 </p>
             </section>
