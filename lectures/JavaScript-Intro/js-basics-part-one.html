@@ -91,14 +91,13 @@
                 <section>
                     <h4>Малко история</h4>
                     <ul>
-                        <li class="fragment">Създаден за 10 дни през май 1995</li>
+                        <li class="fragment">Създаден през май 1995</li>
                         <li class="fragment">Mocha - > LiveScript - > JavaScript</li>
                         <li class="fragment">Brendan Eich (Netscape)</li>
-                        <li class="fragment">6 големи версии и 7ма в прогрес</li>
                     </ul>
                 </section>
                 <section>
-                    <h4>JavaScript може да</h4>
+                    <h4>JavaScript(в браузър) може да</h4>
                     <ul>
                         <li class="fragment">Добавя функционалност в уеб сайтове</li>
                         <li class="fragment">Валидация на форми</li>
@@ -107,18 +106,17 @@
                         <li class="fragment">Контрол на бисквитки</li>
                     </ul>
                 </section>
-                <section>
-                    <h4>JavaScript не може да</h4>
-                    <ul>
-                        <li class="fragment">Записва файлове на сървър</li>
-                        <li class="fragment">Пише и чете от файловата система</li>
-                        <li class="fragment">Контролира прозорци, които не са отворени от него</li>
-                        <li class="fragment">Защити използваните картинки и сорс код в уеб страница</li>
-                    </ul>
-                </section>
-                <section>
+                 <section>
                     <h4><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node">NodeJS - сървърен JavaScript</a></h4>
                     <img src="images/nodejs.png" alt="NodeJS" class="section-logo" />
+                </section>
+                <section>
+                    <h4>JavaScript(NodeJS) може да</h4>
+                    <ul>
+                        <li class="fragment">Всичко останало server side related</li>
+                        <li class="fragment">Връзка с бази данни</li>
+                        <li class="fragment">Записване на файлове в сървъра</li>
+                    </ul>
                 </section>
                 <section>
                     <h4>Като цяло</h4>
@@ -128,6 +126,15 @@
                         <li class="fragment">Нетипизиран</li>
                         <li class="fragment">Обектно ориентиран</li>
                         <li class="fragment">Може да работи при клиента и на сървъра</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Примери за софтуер написан изцяло на JavaScript</h4>
+                    <ul>
+                        <li class="fragment"><a href="https://brainhub.eu/blog/9-famous-apps-using-node-js/" target="_blank">Paypal, LinedIn, Yahoo, Netflix etc</a></li>
+                        <li class="fragment"><a href="https://solidity.readthedocs.io/en/develop/" target="_blank">Solidity</a></li>
+                        <li class="fragment"><a href="http://quakejs.com/" target="_blank">Quake JS</a></li>
                     </ul>
                 </section>
             </section>
@@ -149,12 +156,33 @@
                 </section>
 
                  <section>
-                    <h4>var vs. *let vs. *const</h4>
+                    <h4>var vs. let vs. const</h4>
                     <ul>
                         <li class="fragment">var - function scope</li>
-                        <li class="fragment">*let - block scope</li>
-                        <li class="fragment">*const - constants</li>
+                        <li class="fragment">let - block scope</li>
+                        <li class="fragment">const - constants</li>
                     </ul>
+                </section>
+
+                <section>
+                    <h4>Пример</h4>
+<pre><code><script>
+    const outer = 42;
+
+    if (true) {
+        var foo = 5;
+        let bar = 10;
+        const inner = 45;
+    }
+
+    console.log(foo); // 5
+    console.log(bar); // Uncaught ReferenceError: bar is not defined
+    console.log(inner); // Uncaught ReferenceError: inner is not defined
+    console.log(outer); // 42
+
+    outer += 10; // Uncaught TypeError: Assignment to constant variable
+</script>
+</code></pre>
                 </section>
 
 
@@ -166,18 +194,34 @@
                         <li class="fragment">undefined</li>
                         <li class="fragment">Number</li>
                         <li class="fragment">String</li>
-                        <li class="fragment">*Symbol</li>
+                        <li class="fragment">Symbol</li>
                     </ul>
+                </section>
+                 <section>
+                    <h4>Пример</h4>
+                    <pre><code>let num = 5,
+    emptyObj = null,
+    notDefined,
+    myBool = true,
+    myText = "Hello World!",
+    sym = Symbol("foo");
+
+console.log(num); // 5
+console.log(emptyObj); // null
+console.log(notDefined); // undefined
+console.log(myBool); // true
+console.log(myText); // Hello World!
+console.log(sym); // Symbol(foo)</code></pre>
                 </section>
                 <section>
                     <h4>Пример</h4>
-                    <pre><code>var a = 5;
-var b = a;
+                    <pre><code>let foo = 5;
+let bar = foo;
 
-b = 10;
+bar = 10;
 
-console.log(a); // 5
-console.log(b); // 10</code></pre>
+console.log(foo); // 5
+console.log(bar); // 10</code></pre>
                 </section>
                 <section>
                     <h4>typeof</h4>
@@ -200,11 +244,22 @@ console.log(typeof null); //object
                 </section>
                 <section>
                     <h4>Референтни типове - присвояване</h4>
-                    <pre><code>var object1 = new Object();
-var object2 = object1;
+                    <pre><code>let object1 = new Object();
+let object2 = object1;
 </code></pre>
                     <img class="fragment" src="images/reference.png" alt="Референтни типове" />
 
+                </section>
+
+                <section>
+                    <h4>Пример</h4>
+                    <pre><code>let objectA = {};
+let objectB = objectA;
+
+objectA["foo"] = "bar";
+
+console.log(objectA["foo"]); // bar
+console.log(objectB["foo"]); // bar</code></pre>
                 </section>
             </section>
             <section>
