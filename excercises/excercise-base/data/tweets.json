@@ -1,0 +1,126 @@
+{
+    "tweets": [
+        {
+            "author": "Padraig",
+            "tag": "Crotalus adamanteus",
+            "description": "In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
+            "link": "http://dummyimage.com/172x134.png/5fa2dd/ffffff",
+            "time": "8:44 AM",
+            "image": "http://dummyimage.com/186x120.png/5fa2dd/ffffff"
+        },
+        {
+            "author": "Roberto",
+            "tag": "Canis mesomelas",
+            "description": "Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+            "link": "http://dummyimage.com/158x158.bmp/cc0000/ffffff",
+            "time": "3:31 AM",
+            "image": "http://dummyimage.com/203x144.bmp/cc0000/ffffff"
+        },
+        {
+            "author": "Boone",
+            "tag": "Amphibolurus barbatus",
+            "description": "Duis mattis egestas metus. Aenean fermentum.",
+            "link": "http://dummyimage.com/150x193.bmp/5fa2dd/ffffff",
+            "time": "3:42 AM",
+            "image": "http://dummyimage.com/181x151.jpg/dddddd/000000"
+        },
+        {
+            "author": "Leland",
+            "tag": "Tamiasciurus hudsonicus",
+            "description": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
+            "link": "http://dummyimage.com/168x211.bmp/cc0000/ffffff",
+            "time": "7:31 PM",
+            "image": "http://dummyimage.com/145x206.bmp/cc0000/ffffff"
+        },
+        {
+            "author": "Gerick",
+            "tag": "Cereopsis novaehollandiae",
+            "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
+            "link": "http://dummyimage.com/170x179.jpg/cc0000/ffffff",
+            "time": "9:58 PM",
+            "image": "http://dummyimage.com/169x182.jpg/ff4444/ffffff"
+        },
+        {
+            "author": "Frederich",
+            "tag": "Ictalurus furcatus",
+            "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
+            "link": "http://dummyimage.com/221x245.png/cc0000/ffffff",
+            "time": "11:58 AM",
+            "image": "http://dummyimage.com/209x233.bmp/ff4444/ffffff"
+        },
+        {
+            "author": "Wang",
+            "tag": "Semnopithecus entellus",
+            "description": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+            "link": "http://dummyimage.com/120x191.jpg/dddddd/000000",
+            "time": "9:25 AM",
+            "image": "http://dummyimage.com/108x249.jpg/ff4444/ffffff"
+        },
+        {
+            "author": "Goraud",
+            "tag": "Panthera tigris",
+            "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+            "link": "http://dummyimage.com/124x113.bmp/5fa2dd/ffffff",
+            "time": "4:23 PM",
+            "image": "http://dummyimage.com/123x239.png/ff4444/ffffff"
+        },
+        {
+            "author": "Renaldo",
+            "tag": "Alligator mississippiensis",
+            "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
+            "link": "http://dummyimage.com/183x194.bmp/ff4444/ffffff",
+            "time": "1:58 PM",
+            "image": "http://dummyimage.com/184x187.png/5fa2dd/ffffff"
+        },
+        {
+            "author": "Javier",
+            "tag": "Cynictis penicillata",
+            "description": "Duis at velit eu est congue elementum.",
+            "link": "http://dummyimage.com/243x126.jpg/5fa2dd/ffffff",
+            "time": "1:57 AM",
+            "image": "http://dummyimage.com/128x164.bmp/dddddd/000000"
+        }
+    ],
+    "follow": [
+        {
+            "name": "Bartholemy",
+            "tag": "Ursus maritimus",
+            "image": "http://dummyimage.com/194x121.bmp/5fa2dd/ffffff"
+        },
+        {
+            "name": "Avram",
+            "tag": "Fulica cristata",
+            "image": "http://dummyimage.com/218x171.bmp/cc0000/ffffff"
+        },
+        {
+            "name": "Gian",
+            "tag": "Catharacta skua",
+            "image": "http://dummyimage.com/212x149.jpg/ff4444/ffffff"
+        },
+        {
+            "name": "Gherardo",
+            "tag": "Eudyptula minor",
+            "image": "http://dummyimage.com/145x181.bmp/ff4444/ffffff"
+        },
+        {
+            "name": "Ilario",
+            "tag": "Motacilla aguimp",
+            "image": "http://dummyimage.com/158x224.bmp/ff4444/ffffff"
+        },
+        {
+            "name": "Tammie",
+            "tag": "Cacatua tenuirostris",
+            "image": "http://dummyimage.com/228x174.jpg/dddddd/000000"
+        },
+        {
+            "name": "Creight",
+            "tag": "Eira barbata",
+            "image": "http://dummyimage.com/248x204.jpg/cc0000/ffffff"
+        },
+        {
+            "name": "Myca",
+            "tag": "Eolophus roseicapillus",
+            "image": "http://dummyimage.com/205x125.jpg/5fa2dd/ffffff"
+        }
+    ]
+}

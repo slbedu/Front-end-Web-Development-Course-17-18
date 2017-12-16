@@ -1,0 +1,1 @@
+// use fetch to fetch templates and json data
